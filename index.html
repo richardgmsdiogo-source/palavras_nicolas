@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Palavras Cruzadas — NICOLAS (fácil)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar kids">
+    <div class="brand">
+      <div class="logo-emoji" aria-hidden="true">🧩</div>
+      <div>
+        <h1>Palavras Cruzadas</h1>
+        <small>Coluna azul monta: <b>NICOLAS</b></small>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="btnCheck" class="btn primary">Checar</button>
+      <button id="btnHint" class="btn">Dica</button>
+      <button id="btnReset" class="btn">Limpar</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="board-wrap">
+      <div id="grid" class="grid" aria-label="Palavras Cruzadas"></div>
+
+      <div id="overlayWin" class="win hidden" role="dialog" aria-live="polite">
+        <h2>Parabéns!</h2>
+        <p>Você montou <span class="word">NICOLAS</span> na coluna azul!</p>
+        <button id="btnAgain" class="btn primary">Jogar de novo</button>
+      </div>
+    </section>
+
+    <aside class="clues">
+      <h2>🔎 Perguntas (Horizontais)</h2>
+      <ol id="clueList">
+        <li><b></b> Veículo do astronauta?</li>                 <!-- NAVE -->
+        <li><b></b> Amiguinho de outro planeta?</li>            <!-- ALIEN -->
+        <li><b></b> Bola do espaço com cauda?</li>              <!-- COMETA -->
+        <li><b></b> Máquina que ajuda a explorar?</li>          <!-- ROBO -->
+        <li><b></b> Companheira da Terra à noite?</li>          <!-- LUA -->
+        <li><b></b> Fenômeno luminoso no céu?</li>              <!-- AURORA -->
+        <li><b></b> Nossa estrela do dia?</li>                  <!-- SOL -->
+      </ol>
+      <p class="muted">Escreva SEM acento (ex.: ROBO, ESPACO).</p>
+    </aside>
+  </main>
+
+  <div class="signature">
+    Criado por <strong>Richard Alex</strong> — 
+    <a class="handle" href="https://instagram.com/richard.gms" target="_blank" rel="noopener noreferrer">@richard.gms</a>
+  </div>
+
+
+  <script src="game.js"></script>
+</body>
+</html>
